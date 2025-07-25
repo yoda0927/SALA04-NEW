@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #090909;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+button {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border: 3px solid #650488;
+    padding: 10px 30px;
+    border-radius: 999px;
+    transition: 200ms all linear;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px solid #650488;
+    background-color: #650488;
+    box-shadow: rgba(169, 46, 240, 0.4) -5px 5px, rgba(156, 46, 240, 0.3) -10px 10px, rgba(214, 46, 240, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(230, 46, 240, 0.05) -25px 25px;
+}
