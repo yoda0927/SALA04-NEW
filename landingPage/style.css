@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    scroll-behavior: smooth;   
+}
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #ddd;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+#s1{
+    min-height: 100vh;
+    background-color: rgb(130, 11, 11);
+}
+
+#s2{
+    min-height: 100vh;
+    background-color: rgb(12, 82, 80);
+}
+
+#s3{
+    min-height: 100vh;
+    background-color: rgb(135, 47, 176);
+}
+
+#s4{
+    min-height: 100vh;
+    background-color: rgb(67, 187, 16);
+}
