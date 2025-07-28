@@ -42,16 +42,28 @@ nav a:hover{
 }
 
 .img-s1{
+    transition: all 200ms ease-in-out;
     width: 300px;
     height: 300px;
 }
 .warp-img{
-    width: 30%;
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border-radius: 100%;
+    overflow: hidden;
+    border: 6px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12)
+    0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) ,0px -3px 5px;
 }
+.img-s1{
+    transition: all 200ms ease-in-out;
+}
+.warp-img .img-s1 :hover{
+    transform: scale(1.1);
+}
+
 .warp-words{
     width: 50%;
     display: flex;
@@ -59,6 +71,7 @@ nav a:hover{
     align-items: left;
     justify-content: center;
 }
+
 
 #s2 {
     min-height:  100vh;
