@@ -15,6 +15,13 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 20px;
+
+    box-shadow: 
+    rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;;
 }
 
 nav a{
@@ -46,7 +53,7 @@ nav a:hover{
     width: 300px;
     height: 300px;
 }
-.warp-img{
+.wrap-img{
     width: 300px;
     display: flex;
     align-items: center;
@@ -60,11 +67,11 @@ nav a:hover{
 .img-s1{
     transition: all 200ms ease-in-out;
 }
-.warp-img .img-s1 :hover{
+.wrap-img .img-s1 :hover{
     transform: scale(1.1);
 }
 
-.warp-words{
+.wrap-words{
     width: 50%;
     display: flex;
     flex-direction: column;
